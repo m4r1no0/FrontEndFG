@@ -19,7 +19,7 @@ export const produccionHuevosService = {
     return request(`/produccion-huevos/by-id/${id}`, {
       method: 'PUT',
       headers: {
-        'Content-Type': 'application/json',  // 👈 importante
+        'Content-Type': 'application/json', 
       },
       body: JSON.stringify(data),
     });
