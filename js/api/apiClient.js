@@ -5,7 +5,7 @@
 // La importamos para usarla en caso de un error 401.
 import { authService } from './auth.service.js';
 
-const API_BASE_URL = 'https://backendfastapi-lzx4.onrender.com';
+const API_BASE_URL = 'https://backendfastapi-1-1nm3.onrender.com';
 
 /**
  * Cliente central para realizar todas las peticiones a la API.
